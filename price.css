@@ -2,8 +2,11 @@ body {
 	margin: 10em auto;
 	text-align: center;
 	font-family: sans-serif;
-	font: white;
 	background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+h1 {	
+	font-color: white;
 }
 
 #bitprice {
