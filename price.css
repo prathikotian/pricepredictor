@@ -23,7 +23,6 @@ a {
 }
 
 a:hover {
-	font-weight: 900;
 	transform: scale(2);
 }
 
@@ -38,16 +37,21 @@ button {
 	height: 8vh;
 	color: #38ef7d;
 	border-radius: 50px;
-	letter-spacing: 2px;
 	margin-bottom: 2rem;
 }
 
 #bitprice,
-button {
+button,
+a:hover {
 	font-weight: 900;
 }
 
 p {
-	letter-spacing: 2px;
 	font-size: 1rem;
+}
+
+button,
+p,
+h1 {
+	letter-spacing: 2px;
 }
