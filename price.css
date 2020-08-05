@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 100;
+}
+
 body {
-	margin: 10em auto;
 	text-align: center;
-	font-family: sans-serif;
-	background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+	margin: 40vh 10vw;
+	background: linear-gradient(to right, #8e2de2, #4a00e0);
 }
 
 h1 {	
 	color: white;
+	margin-bottom: 2rem;
 }
 
 #bitprice {
-	color: green;
+	color: #38ef7d;
+}
+
+button {
+	width: 15vw;
+	height: 8vh;
+	color: #38ef7d;
+	border-radius: 50px;
+	letter-spacing: 2px;
+}
+
+#bitprice,
+button {
+	font-weight: 900;
 }
